@@ -1,0 +1,19 @@
+.board {
+  width: 50%;
+  height: 50%;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.board > div {
+  border: 1px solid black;
+  float: left;
+  width: 32%;
+  height: 32%;
+}

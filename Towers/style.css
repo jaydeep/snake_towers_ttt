@@ -1,0 +1,38 @@
+.board {
+  width: 50%;
+  height: 50%;
+}
+
+/*.disc {
+  background-color: red;
+}*/
+
+.pile.selected {
+  opacity:0.25;
+}
+
+.disc-1{
+  width: 33%;
+}
+
+.disc-2{
+  width: 66%;
+}
+
+.disc-3{
+  width:99%;
+}
+
+.board > div {
+  border: 1px solid black;
+  float: left;
+  width: 32%;
+  height: 32%;
+}
+
+.board > div > div{
+  margin-left:auto;
+  margin-right:auto;
+  height: 33%;
+  background-color: red;
+}
